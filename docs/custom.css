@@ -1,0 +1,56 @@
+/* Button styling to mimic Quarto callout */
+.plot-button {
+  background-color: #e8e8e8; /* Light gray background */
+  color: #333; /* Dark text color */
+  padding: 10px 15px; /* Padding inside the button */
+  text-align: left; /* Align text to the left */
+  display: block; /* Make the button behave like a block element */
+  width: 100%; /* Full width */
+  border: none; /* No border */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Change mouse cursor on hover */
+  border-left: 5px solid #253f8c; /* Blue left border */
+  margin-bottom: 10px; /* Margin at the bottom */
+  font-size: 18px; /* Larger font size */
+}
+
+.plot-button:hover {
+  background-color: #e8e8e8; /* Slightly darker background on hover */
+}
+
+/* Callout content styling */
+.plot-content {
+  display: none;
+  padding: 15px; /* Padding inside the content area */
+  border: 1px solid #fff; /* Light gray border */
+  border-left: 5px solid #fff; /* Blue left border */
+  display: none; /* Hidden by default */
+  margin-bottom: 10px; /* Margin at the bottom */
+}
+
+
+/* Custom CSS file: styles.css */
+.panel-tabset .nav-tabs a {
+    color: #30ba8f; /* Change to your desired text color */
+}
+
+.panel-tabset .tab-content {
+    color: #333; /* text color */
+}
+
+/* background color of the tab headers */
+.panel-tabset .nav-tabs {
+    background-color: #f8f9fa; /* background */
+}
+
+/* background color of the active tab header */
+.panel-tabset .nav-tabs .active {
+    color:#f8f9fa;
+    background-color: #30ba8f; /*  background 
+    color: #ffffff; /*  text color
+}
+
+/* Change the background color of the tab content area */
+.panel-tabset .tab-content {
+    background-color: #ffffff; /* background */
+}
